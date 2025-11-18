@@ -6,7 +6,7 @@ CFG = json.load(open("config.json", "r"))
 rgb_dir = CFG["rgb_dir"]
 
 # ---- choose which RGB to inspect ----
-TARGET_STEM = "RGB_114"   # change this (e.g. "RGB_105", "RGB_27", ...)
+TARGET_STEM = "RGB_6"   # change this (e.g. "RGB_105", "RGB_27", ...)
 
 rgb_files = sorted([f for f in os.listdir(rgb_dir) if not f.startswith(".")])
 if not rgb_files:
