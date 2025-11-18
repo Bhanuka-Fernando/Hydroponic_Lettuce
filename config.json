@@ -1,0 +1,10 @@
+{
+  "json_path": "./GroundTruth/GroundTruth_All_388_Images.json",
+  "rgb_dir": "./RGBImages",
+  "depth_dir": "./DepthImages",
+  "out_csv": "features_area_diameter.csv",
+  "debug_dir": "debug_masks",
+  "hsv_lower": [20, 70, 40],
+  "hsv_upper": [95, 255, 255],
+  "min_mask_pixels": 100
+}
